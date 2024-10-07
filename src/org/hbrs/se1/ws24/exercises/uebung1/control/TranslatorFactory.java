@@ -6,7 +6,8 @@ public class TranslatorFactory {
     public static Translator createTranslator() {
         GermanTranslator translator = new GermanTranslator();
         translator.setDate("Okt/2024"); // Setzt das vorgegebene Datum
-        return new GermanTranslator();
-
+        return translator; // Gibt das Objekt zurück, bei dem das Datum gesetzt wurde
     }
+
+
 }
